@@ -9,7 +9,6 @@
   url(./feather.ttf) format("truetype"),
   url(./feather.svg#feather) format("svg")
 }
-
 .feather, [class*=" ti-"], [class*=" line-icon-"], [class^="line-icon-"], [class^="ti-"] {
   speak: none;
   font-weight: 400;
@@ -21,7 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
 }
-
 .feather {
   font-family:feather;
 }
