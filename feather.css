@@ -9,8 +9,19 @@
   url(./feather.ttf) format("truetype"),
   url(./feather.svg#feather) format("svg")
 }
+.feather, [class*=" ti-"], [class*=" line-icon-"], [class^="line-icon-"], [class^="ti-"] {
+  speak: none;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
 .feather {
-  font-family:feather!important
+  font-family:feather;
 }
 .icon-feather-alert-octagon:before {
   content:"\e81b"
